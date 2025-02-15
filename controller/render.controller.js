@@ -17,4 +17,11 @@ let renderError = (req, res, next) => {
   res.render("404");
 };
 
-module.exports = { renderIndex, renderAbout, renderError };
+let renderBecomeTeacher = (req, res, next) => {
+  let data = courseService.getAllCourses();
+  res.render("about", {
+    title: "Ustoz bo'lib ko'ring",
+  });
+};
+
+module.exports = { renderIndex, renderAbout, renderBecomeTeacher, renderError };
