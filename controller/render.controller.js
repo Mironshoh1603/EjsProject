@@ -13,5 +13,11 @@ let renderAbout = (req, res, next) => {
     title: "Biz haqimizda",
   });
 };
+let renderClasses = (req, res, next) => {
+  let data = courseService.getAllCourses();
+  res.render("classes", {
+    title: "Bu sinflar",
+  });
+};
 
-module.exports = { renderIndex, renderAbout };
+module.exports = { renderIndex, renderAbout, renderClasses };
