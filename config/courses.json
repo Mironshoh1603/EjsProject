@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Art and Drawing",
+    "teacher": "NImajon Nimayev",
+    "teacherImg": "user-1.jpg",
+    "image": "classes-1.jpg",
+    "price": 99,
+    "ages": "3-5",
+    "time": "9-10 AM",
+    "capacity": "30",
+    "id": 1
+  },
+  {
+    "name": "Art and Drawing",
+    "teacher": "NImajon Nimayev",
+    "teacherImg": "user-1.jpg",
+    "image": "classes-2.jpg",
+    "price": 99,
+    "ages": "3-5",
+    "time": "9-10 AM",
+    "capacity": "30",
+    "id": 2
+  },
+  {
+    "name": "Art and Drawing",
+    "teacher": "NImajon Nimayev",
+    "teacherImg": "user-1.jpg",
+    "image": "classes-2.jpg",
+    "price": 99,
+    "ages": "3-5",
+    "time": "9-10 AM",
+    "capacity": "30",
+    "id": 3
+  },
+  {
+    "name": "Art and Drawing",
+    "teacher": "NImajon Nimayev",
+    "teacherImg": "user-1.jpg",
+    "image": "classes-4.jpg",
+    "price": 99,
+    "ages": "3-5",
+    "time": "9-10 AM",
+    "capacity": "30",
+    "id": 4
+  },
+  {
+    "name": "Art and Drawing",
+    "teacher": "NImajon Nimayev",
+    "teacherImg": "user-1.jpg",
+    "image": "classes-5.jpg",
+    "price": 99,
+    "ages": "3-5",
+    "time": "9-10 AM",
+    "capacity": "30",
+    "id": 5
+  },
+  {
+    "name": "Art and Drawing",
+    "teacher": "NImajon Nimayev",
+    "teacherImg": "user-1.jpg",
+    "image": "classes-6.jpg",
+    "price": 99,
+    "ages": "3-5",
+    "time": "9-10 AM",
+    "capacity": "30",
+    "id": 6
+  }
+]
