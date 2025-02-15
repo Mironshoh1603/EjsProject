@@ -7,6 +7,7 @@ let renderIndex = (req, res, next) => {
     join: "Bizga qo'shiling",
   });
 };
+
 let renderAbout = (req, res, next) => {
   let data = courseService.getAllCourses();
   res.render("about", {
@@ -14,4 +15,11 @@ let renderAbout = (req, res, next) => {
   });
 };
 
-module.exports = { renderIndex, renderAbout };
+let renderTeam = (req, res, next) => {
+  let data = courseService.getAllCourses();
+  res.render("team", {
+    title: "Ustozlar",
+  });
+};
+
+module.exports = { renderIndex, renderAbout, renderTeam };
