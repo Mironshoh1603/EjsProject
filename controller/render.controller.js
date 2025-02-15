@@ -10,8 +10,14 @@ let renderIndex = (req, res, next) => {
 let renderAbout = (req, res, next) => {
   let data = courseService.getAllCourses();
   res.render("about", {
-    title: "Biz haqimizda",
+    title: "tayinlash",
+  });
+};
+let Appointmen = (req, res, next) => {
+  let data = courseService.getAllCourses();
+  res.render("appointment", {
+    title: "tayinlash",
   });
 };
 
-module.exports = { renderIndex, renderAbout };
+module.exports = { renderIndex, renderAbout, Appointmen };
