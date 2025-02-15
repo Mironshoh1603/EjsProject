@@ -8,5 +8,6 @@ router.get("/404", renderController.renderError);
 router.get("/call-to-action", renderController.renderBecomeTeacher);
 router.get("/testimonial", renderController.renderTestimonial);
 router.get("/classes", renderController.renderClasses);
+router.get("/team", renderController.renderTeam);
 
 module.exports = router;

@@ -1,7 +1,7 @@
 const env = require("dotenv").config();
 const app = require("./middlewares/app");
 
-app.listen(process.env.PORT, () => {
-  console.log("Server is running on ", process.env.PORT);
+app.listen(4000, () => {
+  console.log("Server is running on ", 4000);
 });
  

@@ -7,6 +7,7 @@ let renderIndex = (req, res, next) => {
     join: "Bizga qo'shiling",
   });
 };
+
 let renderAbout = (req, res, next) => {
   let data = courseService.getAllCourses();
   res.render("about", {
@@ -38,6 +39,13 @@ let renderClasses = (req, res, next) => {
   });
 };
 
+let renderTeam = (req, res, next) => {
+  let data = courseService.getAllCourses();
+  res.render("team", {
+    title: "Ustozlar",
+  });
+};
+
 module.exports = {
   renderIndex,
   renderAbout,
@@ -45,4 +53,5 @@ module.exports = {
   renderError,
   renderTestimonial,
   renderClasses,
+  renderTeam,
 };
