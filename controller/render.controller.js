@@ -31,10 +31,18 @@ let renderTestimonial = (req, res, next) => {
   });
 };
 
+let renderClasses = (req, res, next) => {
+  let data = courseService.getAllCourses();
+  res.render("classes", {
+    title: "Bu sinflar",
+  });
+};
+
 module.exports = {
   renderIndex,
   renderAbout,
   renderBecomeTeacher,
   renderError,
   renderTestimonial,
+  renderClasses,
 };
