@@ -6,5 +6,6 @@ router.get("/index", renderController.renderIndex);
 router.get("/about", renderController.renderAbout);
 router.get("/404", renderController.renderError);
 router.get("/call-to-action", renderController.renderBecomeTeacher);
+router.get("/testimonial", renderController.renderTestimonial);
 
 module.exports = router;

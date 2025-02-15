@@ -24,4 +24,17 @@ let renderBecomeTeacher = (req, res, next) => {
   });
 };
 
-module.exports = { renderIndex, renderAbout, renderBecomeTeacher, renderError };
+let renderTestimonial = (req, res, next) => {
+  let data = courseService.getAllCourses();
+  res.render("testimonial", {
+    title: "Guvohlik",
+  });
+};
+
+module.exports = {
+  renderIndex,
+  renderAbout,
+  renderBecomeTeacher,
+  renderError,
+  renderTestimonial,
+};
