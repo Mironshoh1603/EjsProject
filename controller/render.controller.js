@@ -13,5 +13,11 @@ let renderAbout = (req, res, next) => {
     title: "Biz haqimizda",
   });
 };
+let renderContact = (req, res, next) => {
+  let data = courseService.getAllCourses();
+  res.render("contact", { 
+    title: "Biz haqimizda",
+  });
+};
 
 module.exports = { renderIndex, renderAbout };
