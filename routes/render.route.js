@@ -9,5 +9,6 @@ router.get("/call-to-action", renderController.renderBecomeTeacher);
 router.get("/testimonial", renderController.renderTestimonial);
 router.get("/classes", renderController.renderClasses);
 router.get("/team", renderController.renderTeam);
+router.get("/contact", renderController.renderContact);
 
 module.exports = router;

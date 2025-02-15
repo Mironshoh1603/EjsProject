@@ -17,6 +17,12 @@ let renderAbout = (req, res, next) => {
 let renderError = (req, res, next) => {
   res.render("404");
 };
+let renderContact = (req, res, next) => {
+  let data = courseService.getAllCourses();
+  res.render("contact", {
+    title: "Biz haqimizda",
+  });
+};
 
 let renderBecomeTeacher = (req, res, next) => {
   let data = courseService.getAllCourses();
@@ -54,4 +60,5 @@ module.exports = {
   renderTestimonial,
   renderClasses,
   renderTeam,
+  renderContact,
 };
