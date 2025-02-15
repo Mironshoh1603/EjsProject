@@ -3,7 +3,8 @@ const express = require("express");
 const app = express();
 
 let renderRouter = require("../routes/render.route");
-let renderFacilities = require('../routes/facilities.route.js')
+let renderFacilities = require("../routes/facilities.route.js");
+const nodemon = require("nodemon");
 
 app.use(express.json());
 
@@ -13,6 +14,6 @@ app.set("view engine", "ejs");
 app.set("views", "./public/views");
 
 app.use("/", renderRouter);
-app.use(renderFacilities)
+app.use(renderFacilities);
 
 module.exports = app;

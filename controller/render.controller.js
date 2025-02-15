@@ -13,5 +13,8 @@ let renderAbout = (req, res, next) => {
     title: "Biz haqimizda",
   });
 };
+let renderError = (req, res, next) => {
+  res.render("404");
+};
 
-module.exports = { renderIndex, renderAbout };
+module.exports = { renderIndex, renderAbout, renderError };
