@@ -19,5 +19,11 @@ let Appointmen = (req, res, next) => {
     title: "tayinlash",
   });
 };
+let renderTestimonial = (req, res, next) => {
+  let data = courseService.getAllCourses();
+  res.render("testimonial", {
+    title: "Guvohlik",
+  });
+};
 
 module.exports = { renderIndex, renderAbout, Appointmen };
