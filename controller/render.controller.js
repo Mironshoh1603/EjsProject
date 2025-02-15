@@ -11,7 +11,7 @@ let renderIndex = (req, res, next) => {
 let renderAbout = (req, res, next) => {
   let data = courseService.getAllCourses();
   res.render("about", {
-    title: "Biz haqimizda",
+    title: "tayinlash",
   });
 };
 let renderError = (req, res, next) => {
@@ -52,6 +52,13 @@ let renderTeam = (req, res, next) => {
   });
 };
 
+let Appointmen = (req, res, next) => {
+  let data = courseService.getAllCourses();
+  res.render("appointment", {
+    title: "tayinlash",
+  });
+};
+
 module.exports = {
   renderIndex,
   renderAbout,
@@ -61,4 +68,5 @@ module.exports = {
   renderClasses,
   renderTeam,
   renderContact,
+  Appointmen,
 };
