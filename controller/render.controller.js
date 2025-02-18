@@ -1,4 +1,5 @@
 let courseService = require("../service/course.service");
+let teacherService = require("../service/techer.service");
 let renderIndex = (req, res, next) => {
   let data = courseService.getAllCourses();
   res.render("index", {
@@ -9,9 +10,12 @@ let renderIndex = (req, res, next) => {
 };
 
 let renderAbout = (req, res, next) => {
-  let data = courseService.getAllCourses();
+  let teachers = teacherService.getAllTeachers();
+  console.log(teachers);
+
   res.render("about", {
-    title: "tayinlash",
+    title: "Haqida",
+    teachers,
   });
 };
 let renderError = (req, res, next) => {

@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Alberto",
+    "job": "Dasturchi",
+    "image": "/team-1.jpg",
+    "social": [
+      { "name": "facebook", "url": "facebook.com/nima" },
+      { "name": "instagram", "url": "instagram.com/nima" }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Alberto2",
+    "job": "Dasturchi",
+    "image": "/team-2.jpg",
+    "social": [
+      { "name": "facebook", "url": "facebook.com/nima" },
+      { "name": "instagram", "url": "instagram.com/nima" }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Alberto3",
+    "job": "Bekorchi",
+    "image": "/team-3.jpg",
+    "social": [
+      { "name": "facebook", "url": "facebook.com/nima" },
+      { "name": "instagram", "url": "instagram.com/nima" }
+    ]
+  }
+]
