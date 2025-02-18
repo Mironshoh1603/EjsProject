@@ -1,8 +1,12 @@
 let courseService = require("../service/course.service");
 let teacherService = require("../service/techer.service");
+let imgservice = require("../service/img.service");
 let renderIndex = (req, res, next) => {
+  let inm = imgservice.getAllimg();
+
   let data = courseService.getAllCourses();
   res.render("index", {
+    images: inm,
     courses: data,
     title: "o'quv kurslari bog'chasi",
     join: "Bizga qo'shiling",
