@@ -64,5 +64,44 @@
     "time": "9-10 AM",
     "capacity": "30",
     "id": 6
+  },
+  {
+    "name": "Nodejs",
+    "teacher": "NImajon Nimayev",
+    "image": "classes-1.jpg",
+    "price": 99,
+    "ages": "3-5",
+    "time": "9-10 AM",
+    "capacity": "30",
+    "id": "c8897c62-ce54-4df6-8544-8e086e7b7680"
+  },
+  {
+    "name": "Nodejs CRASH",
+    "teacher": "NImajon Nimayev",
+    "image": "classes-1.jpg",
+    "price": 99,
+    "ages": "3-5",
+    "time": "9-10 AM",
+    "capacity": "30",
+    "id": "7937f47c-9054-4f60-a0e0-f55c197bd7e0"
+  },
+  {
+    "name": "Nodejs CRASH",
+    "teacher": "NImajon Nimayev",
+    "image": "classes-1.jpg",
+    "ages": "3-5",
+    "time": "9-10 AM",
+    "capacity": "30",
+    "id": "446a5354-bd6a-4c41-9df1-b253ab9851cd"
+  },
+  {
+    "name": "Nodejs CRASH",
+    "teacher": "NImajon Nimayev",
+    "image": "classes-1.jpg",
+    "price": 5000,
+    "ages": "3-5",
+    "time": "9-10 AM",
+    "capacity": "30",
+    "id": "fe26acaf-2691-4d36-b9ee-02cdf0beb603"
   }
 ]
