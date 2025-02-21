@@ -5,6 +5,7 @@ const app = express();
 
 let renderRouter = require("../routes/render.route");
 let courseRouter = require("../routes/course.route");
+let contactRouter = require("../routes/contact.route");
 const nodemon = require("nodemon");
 
 app.use(express.json());
@@ -33,6 +34,7 @@ app.use("/", renderRouter);
 
 //api
 app.use("/api/v1/courses", courseRouter);
+app.use("/api/v1/contact", contactRouter);
 
 // app.use(renderFacilities);
 // localhost:3000
